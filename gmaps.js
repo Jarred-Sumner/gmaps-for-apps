@@ -23,9 +23,9 @@
 
 /*jshint unused:false*/
 
-if (!(typeof window.google === 'object' && window.google.maps)) {
-  throw new Error('Google Maps API is required. Please register the following JavaScript library http://maps.google.com/maps/api/js?sensor=true.');
-}
+// if (!(typeof window.google === 'object' && window.google.maps)) {
+//   throw new Error('Google Maps API is required. Please register the following JavaScript library http://maps.google.com/maps/api/js?sensor=true.');
+// }
 
 var GMaps = (function() {
   'use strict';
