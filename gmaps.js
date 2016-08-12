@@ -30,6 +30,10 @@
 var GMaps = (function() {
   'use strict';
 
+  if (!document) {
+    return;
+  }
+
   var doc = document;
 
   var GMaps = function(options) {
